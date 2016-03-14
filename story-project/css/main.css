@@ -1,0 +1,66 @@
+/* CSS Document */
+
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-align:justifed;
+	margin-left:100px;
+	margin-right:400px;
+	background-position:left;
+	background-color: #6b2740;
+	color: #FFFFFF;
+	line-height: 24px
+	}
+	
+	
+	
+	nav {
+   
+  
+    float: inherit;
+	font-family:Avenir;
+	font-size: 19px;
+	color: #FFFFFF;
+	text-align:center;
+	padding-bottom: 10px;
+	}
+	
+
+	h1 { font-size:51px; 
+	font-family: Avenir Next Condensed;
+	font-weight:lighter;
+	letter-spacing: normal;
+	white-space-collapse: discard;
+	text-align:center;
+	color: #FFC8E1;
+	padding-top: 10px;
+	}
+	
+	a {
+    color: #FFFFFF;
+	font-style:normal;
+	text-decoration:none;
+	
+}
+a:hover {
+	color: #FE4568;
+}
+
+h2 {
+	font-size:18px;
+	font-family: Avenir;
+	font-weight:lighter;
+	letter-spacing: normal;
+	white-space-collapse: discard;
+	text-align:center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+h3 {
+	color: #B1F4F1;
+	font-family: Avenir;
+	font-weight:lighter;
+	font-variant:small-caps;
+	font-size:25px;
+	letter-spacing:normal;
+}
