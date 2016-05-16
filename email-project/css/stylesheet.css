@@ -9,10 +9,10 @@
     clear:both;
 }
 
-body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:16px;
+body { font-family: 'Antic Slab', serif;
+	font-size:px;
 	text-align: left;
-	padding:40px;
+	padding:80px;
 	margin-left: 200px;
 	margin-right:200px;
 	background-position:center;
@@ -48,36 +48,49 @@ table {
 
 
 .span_5_of_5 {
-	width: 99%;
+	width: 99%; margin: 0 auto; display:block;
 }
 
 .span_4_of_5 {
-  	width: 79.68%; 
+  	width: 79.68%; margin: 0 auto; display:block;
 }
 
 .span_3_of_5 {
-  	width: 59.36%; 
+  	width: 59.36%; margin: 0 auto; display:block;
 }
 
 .span_2_of_5 {
-  	width: 39.04%;
+  	width: 39.04%; margin: 0 auto; display:block;
 }
 
 .span_1_of_5 {
-  	width: 18.72%;
+  	width: 18.72%; margin: 0 auto; display:block;
 }
  div {margin: 10px;
     padding: 10px;
     border: 0;
     outline: 0;
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: baseline;
     background: transparent;
+	align-content:center;
  }
  
 
 	h1 { font-size:2.2em; padding:0 0 .5em 0; }
-	h2 { font-size:1.5em; }
+	h2 { font-size: 23px; }
 	.header { padding:1em 0; }
-	.col { background: #FFFFFF; padding:1em 0; text-align:center;}
+	.col { background: #FFFFFF; padding:1em 0;}
+	
+	h1{
+	font-family: 'Amatic SC', cursive;
+}
+.icon {width:32px; margin: 0 auto; display:block;}
+
+.image {height:350px; margin: 0 auto; display:block;}
+
+body {
+    background-color:white}
+
+h3 {font-size: 10px; text-align: center}
 	
