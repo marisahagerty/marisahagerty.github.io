@@ -10,8 +10,7 @@
 }
 
 .image { 
-   position: relative; 
-   width: 90%; 
+   position: absolute; 
    background-image: url(../Untitled-1.jpg);
    padding-top:10px;
    padding-bottom: 10px;
@@ -20,15 +19,14 @@
 h2 { 
    position: center; 
    left: 0; 
-   font-size: 18px;
-   text-align: center;
-   color: #fff;
+   font-size: 24px;
+   text-align: right;
   
 }
 
 body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:16px;
-	text-align: left;
+	text-align: center;
 	padding:40px;
 	margin-left: 100px;
 	margin-right:100px;
@@ -52,15 +50,13 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 	
 	nav {
-   
-  
-    float: inherit;
-	width: 152px;
 	height: 24px;
 	font-family: Helvetica;
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 700;
+	background-color: #006EB9;
+	padding: 10px;
 	}
 	
 
@@ -78,6 +74,11 @@ table {
 
 .span_3_of_3 { width: 98%;
 }
+
+.span_1_of_4 {
+	width: 23%;
+	align-content: center;
+	float: center; }
 
 
 .span_5_of_5 {
@@ -98,22 +99,27 @@ table {
 
 .span_1_of_5 {
   	width: 18.72%;
+	background-color: #006EB9; 
 }
  div {margin: 5px;
-    padding: 10px;
-    border: 0;
+    border: 0; 
     outline: 0;
     font-size: 14px;
     vertical-align: baseline;
+	align-content: center;
  }
  
  .opaque {   background-color: #FFFFFF;
  position: inherit;
-	opacity: 0.7; }
+	opacity: 0.7; 
+	padding: 20px;
+	margins: 20px;
+	}
  
  #one {
 	 font-size:18px;
 	 position: inherit;
+	 padding: 50px;
  }
  
  a {
@@ -126,13 +132,9 @@ a:hover {
 	color: #CF77EB;
 }
  
- #two {
-	  font-size:24px;
-	  background-color:#B11517
- }
- 
 
-	h1 { font-size:36px;  text-align: center; color: #FFF;}
+	h1 { font-size:30px;  text-align: left; color: #FFF; }
 	.header { padding:1em 0; }
-	.col { padding:1em 0; text-align:center; }
+	.nav { background-color: #006EB9; }
+	.col { text-align:center; }
 	
